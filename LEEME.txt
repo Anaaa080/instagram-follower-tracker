@@ -1,0 +1,29 @@
+INSTAGRAM FOLLOWER TRACKER — PWA
+================================
+
+Qué incluye
+- Aplicación web instalable (PWA).
+- Comparación de los archivos HTML de Siguiendo y Seguidores de Instagram.
+- Fechas de seguimiento cuando aparecen en la exportación.
+- Búsqueda, ordenación por fecha o usuario y filtros.
+- Enlaces directos a los perfiles.
+- Marcar cuentas como revisadas y guardarlas en «Quiero seguir siguiendo».
+- Guarda las selecciones localmente en el navegador/dispositivo.
+- Caché para abrir la aplicación sin conexión después de la primera carga.
+
+INICIAR EN WINDOWS (opción local)
+1. Extrae todo el ZIP a una carpeta.
+2. Haz doble clic en «Iniciar en Windows.bat».
+3. Se abrirá http://localhost:8765/index.html en el navegador.
+4. En Chrome o Edge, usa el icono Instalar de la barra de direcciones o menú ⋮ > Guardar y compartir > Instalar página como aplicación (el texto puede variar).
+5. Mantén abierta la ventana de consola mientras uses la aplicación. Ciérrala para apagar el servidor local.
+
+REQUISITO
+La instalación PWA y el modo offline necesitan HTTPS o localhost. El archivo index.html por sí solo puede abrirse, pero los navegadores no permiten instalar una PWA completa directamente desde file://.
+El iniciador de Windows necesita Python 3 instalado. Si no lo tienes, publica la carpeta completa en un hosting HTTPS estático (por ejemplo, GitHub Pages o Netlify) y abre la URL desde Chrome/Edge.
+
+PRIVACIDAD
+La comparación se realiza en tu navegador; los archivos que seleccionas no se envían a ningún servidor. Las selecciones se guardan en el almacenamiento local del navegador. Si borras los datos del sitio, puedes perder esas selecciones. La aplicación no deja de seguir cuentas automáticamente.
+
+ACTUALIZAR
+Si reemplazas la aplicación por una versión nueva, el service worker puede conservar temporalmente la caché anterior. Cierra y vuelve a abrir la app; si fuera necesario, borra los datos del sitio desde el navegador.

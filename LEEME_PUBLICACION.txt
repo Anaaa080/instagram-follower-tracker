@@ -1,0 +1,30 @@
+INSTAGRAM FOLLOWER TRACKER — PAQUETE WEB SEO
+
+CONTENIDO
+- index.html: página principal con la herramienta original, adaptada para visitantes nuevos. Se han eliminado las cuentas personales precargadas: cada visitante debe importar sus propios archivos.
+- guia.html: guía de uso orientada a búsquedas orgánicas.
+- privacidad.html: plantilla de privacidad (completar antes de publicar).
+- acerca.html: información y limitaciones.
+- site.css: estilos de las páginas auxiliares.
+- manifest.webmanifest, sw.js e icons/: soporte PWA heredado del paquete anterior.
+- robots.txt y sitemap.xml: hay que sustituir TU-DOMINIO.example por el dominio real.
+
+PUBLICAR GRATIS EN GITHUB PAGES
+1. Crea una cuenta en https://github.com/ si no tienes una.
+2. Crea un repositorio público, por ejemplo instagram-follower-tracker.
+3. Sube el CONTENIDO de esta carpeta (no el ZIP) a la raíz del repositorio.
+4. En Settings > Pages, elige desplegar desde la rama principal (main) y carpeta /(root). Guarda.
+5. Espera a que GitHub te dé una URL HTTPS. Comprueba que funcionan index.html, guia.html, privacidad.html y acerca.html.
+6. Edita robots.txt y sitemap.xml: sustituye todas las apariciones de https://TU-DOMINIO.example por la URL pública real, o por tu dominio propio si lo conectas. Vuelve a subir los cambios.
+7. En Google Search Console, añade la propiedad de tu sitio, verifica que eres propietario y envía https://TU-URL/sitemap.xml. La indexación y el posicionamiento no están garantizados.
+
+ANTES DE PUBLICAR
+- Revisa la herramienta en móvil y escritorio.
+- La página empieza sin usuarios precargados para no exponer los datos de la exportación personal usada durante el desarrollo.
+- Completa la política de privacidad con la identidad y contacto del responsable. No es asesoramiento jurídico.
+- Esta versión no incluye publicidad, analítica ni pagos. Añádelos solo después de revisar requisitos legales, consentimiento y políticas de cada proveedor.
+- Si activas anuncios, revisa el diseño y el consentimiento de cookies aplicable en el EEE.
+- La web no está afiliada a Instagram/Meta y no accede a datos en tiempo real.
+
+NOTA
+No existe garantía de aparecer primero en Google. Publica contenido útil, mide las consultas en Search Console y mejora las páginas según las necesidades reales de los usuarios.
