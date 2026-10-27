@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 # Sustituye TU-DOMINIO.example por tu dominio real antes de publicar.
-Sitemap: https://anaaa080.github.io/instagram-follower-tracker/
+Sitemap: https://anaaa080.github.io/instagram-follower-tracker
